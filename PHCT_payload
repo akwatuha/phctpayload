@@ -1,0 +1,71 @@
+{
+	"datasource" : "Mobile Device",
+	"dicsriminator" : "phct",
+	"payload" : {
+		"survey" : {
+			"provider_id" : "1234-1", 
+			"location_id" : "2" ,
+			"allowed_in" : "accepted", // can be 'accepted' or 'declined'
+			"return_date" : "2014-06-01",
+			"form_id" : "12345",
+			"device_imei" : "723623652832",
+			"date_entered" : "2014-05-25",
+			"start_time" : "2014-05-25 08:21:30",
+			"end_time" : "2014-05-25 09:10:11"
+		}, 	
+		"household" : {
+			"household_id" : "24",	
+			"location_data" : {
+				"gps_location" : "10.0003 120.3456",
+				"village" : "kapsoya",
+				"location" : "petro",
+				"catchment_area" : "clinic",
+				"sub_location" : "",
+				"district" : "",
+				"division" : ""
+			},
+			"household_definition" : {
+				"no_of_household_adults" : "4",
+				"no_of_children_under_13" : "1" ,
+				"no_total_household" : "5"
+				"eligible_adults" : "3",	
+				"eligible_under_13" : "2",
+				"total_eligible" : "5"			
+			},
+			"economic" : {
+				"bednets_owned" : "4",
+				"bednets_given" : "2",
+				"bednets_voucher" : "VCHR345",
+				"land_owned" : "4",
+				"cows_owned" : "20",
+				"goats_owned" : "10",
+				"sheep_owned" : "20",	
+				"children_in_household" : "16",
+				"children_in_school" : "10" 
+			},
+			"individuals" : [
+				"individual" : {
+					"family_name" : "Jesse",
+					"given_name": "Chris",
+					"middle_name" : "Man",
+					"gender" : "M", //can be F or M
+					"birth_date" : "2000-01-01",
+					"birth_date_estimated": "Y",//can be Y or N
+					"contact_phone_number" : "+254-48848",//Can be an 10 digit no beginning with 07.. OR 14 digit starting with +254-7...
+					"medical_record_number" : "8848-9",
+					"hct_id" : "75757-8",
+					"patient_identifier_type_id" : "3",
+					"patient_id" : "75757"
+				} 
+			],
+			"economics: {}
+		} ,
+		"observations" : [
+			
+			"observation" : {
+				"groupId" : "1050",
+				"
+			}
+		]
+		
+}
